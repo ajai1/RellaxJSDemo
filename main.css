@@ -1,0 +1,140 @@
+body {
+    margin:0;
+    background-color: black;
+    background-image: url("./images/dark-asethetic-backgrounds.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 120vh;
+}
+
+.f1{
+    position: absolute;
+    top: 45%;
+    color: aliceblue;
+}
+
+.f2{
+    position: absolute;
+    top: 60%;
+    color: aliceblue;
+}
+
+.f3{
+    position: absolute;
+    top: 40%;
+    color: aliceblue;
+}
+
+.p1{
+    position: absolute;
+    z-index: -5;
+    top: 5%;
+}
+
+
+.p2{
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+}
+
+
+.p3{
+    position: absolute;
+    top: 100%;
+}
+
+
+.welcome{
+    position: absolute;
+    z-index: 0;
+    top: 40%;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+    font: outline;
+    font-size: 50px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+.para{
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+    font: outline;
+    font-size: 30px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.para2{
+    position: absolute;
+    z-index: -2;
+    top: 60%;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+    font: outline;
+    font-size: 20px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.btn1{
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    top:80%;
+    left:5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .btn1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .btn1:hover span {
+    padding-right: 25px;
+  }
+
+  .btn1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+   

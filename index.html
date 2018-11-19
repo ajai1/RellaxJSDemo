@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.min.js"></script>
+</head>
+<body>
+
+        <img src="./images/01.png" class="rellax p1" data-rellax-speed="-8" data-rellax-zindex="6"/>
+        <img src="./images/02.png" class="rellax p2" data-rellax-speed="-5" data-rellax-zindex="5"/>
+        <img src="./images/03.png" class="rellax p3" data-rellax-speed="3" data-rellax-zindex="3"/>
+        <div>
+          <h1 class="welcome rellax" data-rellax-speed="-5">Welcome to Rellax JS</h1>
+          <p class="para rellax" data-rellax-speed="-5">This is a demo page for parallex implementation</p>
+        </div>
+
+        <div>
+          <button class="btn1 rellax"  data-rellax-speed="-5" style="vertical-align:middle"><span>Click Here </span></button>
+        </div>
+
+        <div>
+          <p class="para2 rellax" data-rellax-speed="-8"> Utilizing Rellax js - developed in vanilla javascript by dixonandmoe, <a href='https://github.com/dixonandmoe/rellax'>Link to GitHub</a></p>
+        </div>
+
+<script>
+var rellax = new Rellax('.rellax',{
+  horizontal: true
+});
+</script>
+
+</body>
+
+
+</html>
